@@ -10,7 +10,7 @@ variable "ec2nametag" {
   default = "test"
 }
 
-variable "provider" "aws" {
+variable "aws" {
   region  = "us-east-1"
   profile = "default"
 }
