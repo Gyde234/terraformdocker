@@ -9,3 +9,10 @@ variable "instancetype" {
 variable "ec2nametag" {
   default = "test"
 }
+
+provider "aws" {
+  region  = "us-east-1"
+  profile = "default"
+}
+
+
