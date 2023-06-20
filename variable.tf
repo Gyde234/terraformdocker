@@ -1,14 +1,12 @@
-variable "ami_id" {
-  default = "ami-090e0fc566929d98b"
-}
+variable "ami_id" {}
 
-variable "instancetype" {
-  default = "t2.micro"
-  }
+variable "instancetype" {}
 
-variable "ec2nametag" {
-  default = "test"
-}
+variable "ec2nametag" {}
+
+variable "region" {}
+
+variable "profile" {}
 
 
 
