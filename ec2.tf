@@ -12,3 +12,4 @@ resource "aws_instance" "test" {
 provider "aws" {
     region = "us-east-1"
     profile= "gyde"
+}
